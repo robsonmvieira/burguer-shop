@@ -8,4 +8,12 @@
       <Compile Remove="Class1.cs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BS.CrossCutting\BS.CrossCutting.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Repositories\Interfaces" />
+    </ItemGroup>
+
 </Project>
